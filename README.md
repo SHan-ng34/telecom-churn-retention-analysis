@@ -138,7 +138,8 @@ These scenarios are decision thresholds rather than forecasts of actual interven
 
 ## Dashboard
 
-**Tableau Public:** *Link to be added*
+**Interactive Tableau Dashboard:**  
+[View the dashboard on Tableau Public](https://public.tableau.com/views/CustomerChurnRetentionEconomics-Telecom/CustomerChurnRetentionEconomics)
 
 ## Project Structure
 

@@ -1,8 +1,12 @@
+from pathlib import Path
 import pandas as pd
 
+# Project root = parent directory of this script's folder
+project_root = Path(__file__).resolve().parent.parent
+
 # File paths
-input_file = r"C:\Users\hanus\OneDrive\Documents\telco_churn\data\raw\WA_Fn-UseC_-Telco-Customer-Churn.csv"
-output_file = r"C:\Users\hanus\OneDrive\Documents\telco_churn\data\cleaned\telco_churn_cleaned.csv"
+input_file = project_root / "data" / "raw" / "WA_Fn-UseC_-Telco-Customer-Churn.csv"
+output_file = project_root / "data" / "cleaned" / "telco_churn_cleaned.csv"
 
 # Load raw data
 df = pd.read_csv(input_file)
