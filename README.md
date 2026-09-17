@@ -154,3 +154,16 @@ telco_churn/
 ├── documentation/
 ├── README.md
 └── .gitignore
+
+## Limitations
+
+This dataset is an observational customer snapshot. The analysis identifies associations with observed churn and does not establish causation.
+
+Historical revenue-at-risk figures represent monthly revenue associated with customers who churned in the observed dataset rather than guaranteed future revenue loss.
+
+Actual A/B testing was not possible with the available historical snapshot because it does not contain treatment assignment, control/treatment groups, intervention timing, or post-intervention outcomes.
+
+## Documentation
+
+- [Business Recommendations](documentation/recommendations.md)
+- [Methodology](documentation/methodology.md)
