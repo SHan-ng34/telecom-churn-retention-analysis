@@ -6,7 +6,7 @@ Customer attrition reduces recurring revenue in subscription businesses. This pr
 
 ## Objective
 
-The objective is to combine SQL-based customer analysis, statistical analysis, and dashboarding to:
+The objective is to combine SQL-based customer analysis, statistical analysis, Python, and dashboarding to:
 
 - Measure customer churn and revenue exposure
 - Identify customer segments associated with higher churn
@@ -69,12 +69,12 @@ A multivariable logistic regression was also used to examine the association bet
 
 ### Overall Churn
 
-- Total customers: 7,043
-- Churned customers: 1,869
-- Churn rate: 26.54%
-- Monthly revenue: $456,116.60
-- Historical monthly revenue associated with churn: $139,130.85
-- Revenue exposure: 30.50%
+- Total customers: **7,043**
+- Churned customers: **1,869**
+- Churn rate: **26.54%**
+- Monthly revenue: **$456,116.60**
+- Historical monthly revenue associated with churn: **$139,130.85**
+- Revenue exposure: **30.50%**
 
 ### Contract
 
@@ -98,10 +98,19 @@ contains:
 
 - 954 customers
 - 602 historically churned customers
-- 63.10% observed churn
-- $43,703.15 historical monthly revenue associated with churn
+- **63.10% observed churn**
+- **$43,703.15 historical monthly revenue associated with churn**
 - 352 currently active customers
-- $22,368.40 active monthly revenue exposure
+- **$22,368.40 active monthly revenue exposure**
+
+## Retention Opportunity
+
+The project distinguishes between:
+
+- **Historical revenue at risk:** monthly revenue associated with customers who have already churned.
+- **Active revenue exposure:** monthly revenue currently associated with active customers within identified retention opportunity segments.
+
+A Retention Opportunity Matrix combines observed churn rates with active monthly revenue exposure to identify segments that may warrant retention attention.
 
 ## Business Recommendations
 
@@ -138,6 +147,17 @@ These scenarios are decision thresholds rather than forecasts of actual interven
 
 ## Dashboard
 
+### Dashboard Preview
+
+The Tableau dashboard brings together:
+
+- Churn and revenue KPIs
+- Contract, tenure, and payment segmentation
+- Historical revenue-at-risk analysis
+- Retention Opportunity Matrix
+- Priority segment analysis
+- Illustrative retention economics
+
 **Interactive Tableau Dashboard:**  
 [View the dashboard on Tableau Public](https://public.tableau.com/views/CustomerChurnRetentionEconomics-Telecom/CustomerChurnRetentionEconomics)
 
@@ -152,18 +172,6 @@ telco_churn/
 ├── analysis/
 ├── dashboard/
 ├── documentation/
+├── retention_opportunity_matrix.csv
 ├── README.md
 └── .gitignore
-
-## Limitations
-
-This dataset is an observational customer snapshot. The analysis identifies associations with observed churn and does not establish causation.
-
-Historical revenue-at-risk figures represent monthly revenue associated with customers who churned in the observed dataset rather than guaranteed future revenue loss.
-
-Actual A/B testing was not possible with the available historical snapshot because it does not contain treatment assignment, control/treatment groups, intervention timing, or post-intervention outcomes.
-
-## Documentation
-
-- [Business Recommendations](documentation/recommendations.md)
-- [Methodology](documentation/methodology.md)
