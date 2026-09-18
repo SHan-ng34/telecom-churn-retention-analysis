@@ -159,22 +159,32 @@ The Tableau dashboard brings together:
 - Illustrative retention economics
 
 **Interactive Tableau Dashboard:**  
+
 [View the dashboard on Tableau Public](https://public.tableau.com/views/CustomerChurnRetentionEconomics-Telecom/CustomerChurnRetentionEconomics)
 
 ## Project Structure
 
 ```text
 telco_churn/
+
 ├── data/
 │   ├── raw/
 │   └── cleaned/
+
 ├── sql/
+
 ├── analysis/
+
 ├── dashboard/
+
 ├── documentation/
+
 ├── retention_opportunity_matrix.csv
+
 ├── README.md
+
 └── .gitignore
+```
 
 ## Limitations
 
