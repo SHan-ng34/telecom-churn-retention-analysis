@@ -1,0 +1,13 @@
+segment_type,segment,active_customers,active_monthly_revenue,churned_customers,total_customers,churn_rate
+Contract,One year,1307,81698.15,166,1473,11.27
+Contract,Month-to-month,2220,136447.05,1655,3875,42.71
+Contract,Two year,1647,98840.55,48,1695,2.83
+Payment Method,Electronic check,1294,96056.25,1071,2365,45.29
+Payment Method,Credit card (automatic),1290,83285.25,232,1522,15.24
+Payment Method,Mailed check,1304,53990.70,308,1612,19.11
+Payment Method,Bank transfer (automatic),1286,83653.55,258,1544,16.71
+Tenure,49-72 months,2026,145931.25,213,2239,9.51
+Tenure,25-48 months,1269,77630.80,325,1594,20.39
+Tenure,13-24 months,730,39748.20,294,1024,28.71
+Tenure,0-12 months,1149,53675.50,1037,2186,47.44
+Priority Segment,M2M + Electronic Check + 0-12 months,352,22368.40,602,954,63.10
