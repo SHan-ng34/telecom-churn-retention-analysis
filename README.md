@@ -4,6 +4,25 @@
 
 Customer attrition reduces recurring revenue in subscription businesses. This project analyzes customer-level telecom subscription, billing, contract, payment, and service data to identify where churn is concentrated, quantify revenue exposure, and identify retention opportunities.
 
+## Dashboard
+
+### Dashboard Preview
+
+![Customer Churn & Retention Economics Dashboard](dashboard/dashboard_preview.png)
+
+The Tableau dashboard brings together:
+
+- Churn and revenue KPIs
+- Contract, tenure, and payment segmentation
+- Historical revenue-at-risk analysis
+- Retention Opportunity Matrix
+- Priority segment analysis
+- Illustrative retention economics
+
+**Interactive Tableau Dashboard:**  
+
+[View the dashboard on Tableau Public](https://public.tableau.com/views/CustomerChurnRetentionEconomics-Telecom/CustomerChurnRetentionEconomics)
+
 ## Objective
 
 The objective is to combine SQL-based customer analysis, statistical analysis, Python, and dashboarding to:
@@ -143,25 +162,7 @@ Illustrative six-month scenarios were used to calculate intervention break-even 
 | $40 | 10.49% |
 | $60 | 15.73% |
 
-These scenarios are decision thresholds rather than forecasts of actual intervention performance.
-
-## Dashboard
-
-### Dashboard Preview
-
-![Customer Churn & Retention Economics Dashboard](dashboard/dashboard_preview.png)
-
-The Tableau dashboard brings together:
-- Churn and revenue KPIs
-- Contract, tenure, and payment segmentation
-- Historical revenue-at-risk analysis
-- Retention Opportunity Matrix
-- Priority segment analysis
-- Illustrative retention economics
-
-**Interactive Tableau Dashboard:**  
-
-[View the dashboard on Tableau Public](https://public.tableau.com/views/CustomerChurnRetentionEconomics-Telecom/CustomerChurnRetentionEconomics)
+These scenarios are decision thresholds rather than forecasts of actual intervention performance
 
 ## Project Structure
 
