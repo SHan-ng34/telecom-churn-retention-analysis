@@ -162,7 +162,7 @@ Illustrative six-month scenarios were used to calculate intervention break-even 
 | $40 | 10.49% |
 | $60 | 15.73% |
 
-These scenarios are decision thresholds rather than forecasts of actual intervention performance
+These scenarios are decision thresholds rather than forecasts of actual intervention performance.
 
 ## Project Structure
 
