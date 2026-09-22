@@ -149,8 +149,9 @@ These scenarios are decision thresholds rather than forecasts of actual interven
 
 ### Dashboard Preview
 
-The Tableau dashboard brings together:
+![Customer Churn & Retention Economics Dashboard](dashboard/dashboard_preview.png)
 
+The Tableau dashboard brings together:
 - Churn and revenue KPIs
 - Contract, tenure, and payment segmentation
 - Historical revenue-at-risk analysis
